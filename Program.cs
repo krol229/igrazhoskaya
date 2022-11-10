@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,14 +24,232 @@ namespace igra_zheskaya
                 Console.WriteLine("                               ");
                 Console.WriteLine("#############################");
                 Console.WriteLine("-----------------------");
+                Console.WriteLine("0. ?????????????");
                 Console.WriteLine("1. Казино");
                 Console.WriteLine("2. 1000-7");
                 Console.WriteLine("3. Очистить консоль");
                 Console.WriteLine("4. Настройки");
                 Console.WriteLine("-----------------------");
                 Console.WriteLine("#############################");
-                int MENU = Convert.ToInt32(Console.ReadLine());
-                if (MENU == 0) Console.WriteLine("Такого меню нет(");
+        int MENU = Convert.ToInt32(Console.ReadLine());
+                if (MENU == -1)
+                {
+                    Console.Write("зачем ты сюда зашёл?");
+                    Console.Write("?");
+                    Thread.Sleep(25);
+                    Console.Write("?");
+                    Thread.Sleep(25);
+                    Console.Write("?");
+                    Thread.Sleep(25);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write("?");
+                    Thread.Sleep(50);
+                    Console.Write(" ");
+                    Thread.Sleep(100);
+                    Console.Write("т");
+                    Thread.Sleep(100);
+                    Console.Write("ы");
+                    Thread.Sleep(100);
+                    Console.Write(" ");
+                    Thread.Sleep(100);
+                    Console.Write("н");
+                    Thread.Sleep(100);
+                    Console.Write("е");
+                    Thread.Sleep(25);
+                    Console.Write(" ");
+                    Thread.Sleep(100);
+                    Console.Write("должен");
+                    Thread.Sleep(25);
+                    Console.Write(" б");
+                    Thread.Sleep(25);
+                    Console.Write("ы");
+                    Thread.Sleep(25);
+                    Console.Write("л");
+                    Thread.Sleep(25);
+                    Console.Write(" сю");
+                    Thread.Sleep(25);
+                    Console.Write("да");
+                    Thread.Sleep(25);
+                    Console.Write(" з");
+                    Thread.Sleep(25);
+                    Console.Write("ай");
+                    Thread.Sleep(25);
+                    Console.Write("т");
+                    Thread.Sleep(50);
+                    Console.Write("и");
+                    Thread.Sleep(2000);
+                    Console.WriteLine("" +
+                        " Пока");
+                    Thread.Sleep(100);
+                    Console.Write(".");
+                    Thread.Sleep(100);
+                    Console.Write(".");
+                    Thread.Sleep(100);
+                    Console.Write(".");
+                    Thread.Sleep(100);
+                    Console.Write(".");
+                    Thread.Sleep(2000);
+                    Console.Clear();
+                }
+                if (MENU == 0)
+                    {
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("                                                                                                                       ");
+                    Thread.Sleep(50);
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("                                                                                                                       ");
+                    Thread.Sleep(50);
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Thread.Sleep(50);
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("                                                                                                                       ");
+                    Thread.Sleep(50);
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkBlue;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkGreen;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.BackgroundColor = ConsoleColor.DarkCyan;
+                    Thread.Sleep(50);
+                    Console.WriteLine("                                                                                                                       ");
+                    Console.ResetColor();
+                    Console.Clear();
+                }
+                //
                 if (MENU == 1)
                 {
                     Console.Clear();
@@ -52,7 +270,7 @@ namespace igra_zheskaya
                     Random rnp = new Random();
                     int rcp = rnp.Next(1, 5);
                     //меню
-                    Console.WriteLine($"Привет, {NAME}, ты находишься в главном меню");
+                    Console.WriteLine($"Привет, {NAME}, ты находишься в главном меню казича");
                     Console.WriteLine("                    ");
                     Console.WriteLine("1. 1/2");
                     Console.WriteLine("2. 1/3");
@@ -326,13 +544,16 @@ namespace igra_zheskaya
                     Thread.Sleep(2000);
                 Console.Clear();
                 }
-                if (MENU == 5)
-                {
+                //тут нет такой менюшки
+                if (MENU == 5) { 
                     Console.WriteLine("Нет такой менюшки(");
-                }
-                if (MENU > 5)
-                {
+                    Thread.Sleep(500);
+                    Console.Clear();
+                } 
+                if (MENU > 5) {
                     Console.WriteLine("Нет такой менюшки(");
+                    Thread.Sleep(500);
+                    Console.Clear();
                 }
             }
         }
